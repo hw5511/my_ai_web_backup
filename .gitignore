@@ -1,0 +1,11 @@
+# MCP Configuration (contains sensitive tokens)
+.mcp.json
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+
+# Vite cache
+.vite/

@@ -1,0 +1,70 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #F7D52A;
+  --color-primary-light: #FFF176;
+  --color-primary-dark: #F57F17;
+  
+  /* Secondary Colors */
+  --color-secondary: #8B4513;
+  --color-accent: #4CAF50;
+  
+  /* Background Colors */
+  --color-bg-primary: #F7D52A;
+  --color-bg-secondary: #FFF8DC;
+  --color-bg-white: #FFFFFF;
+  
+  /* Text Colors */
+  --color-text-primary: #8B4513;
+  --color-text-secondary: #FFFFFF;
+  --color-text-muted: #A67C52;
+  
+  /* Interactive Colors */
+  --color-button-primary: #4CAF50;
+  --color-button-hover: #388E3C;
+  --color-link: #2E7D32;
+  --color-link-hover: #1B5E20;
+  
+  /* Border Colors */
+  --color-border-gold: #D4AF37;
+  --color-border-green: #228B22;
+  --color-border-light: #E8E8E8;
+
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* CSS 초기화 */
+* {
+  box-sizing: border-box;
+}
+
+/* HTML, Body 초기화 */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Root 앱 컨테이너 설정 */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-link);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--color-link-hover);
+}
